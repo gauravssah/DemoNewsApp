@@ -3,7 +3,8 @@ import React, { Component } from 'react'
 import NavBar from './components/NavBar';
 import News from './components/News';
 import {
-  BrowserRouter as Router,
+  // BrowserRouter as Router,
+  HashRouter,
   Routes,
   Route,
 } from "react-router-dom";
@@ -15,7 +16,7 @@ export default class App extends Component {
     return (
       <div>
 
-        <Router basename={process.env.PUBLIC_URL}>
+        <HashRouter>
 
           <NavBar />
 
@@ -29,7 +30,7 @@ export default class App extends Component {
             <Route exact path='/general' element={<News key="general" pageSize={this.pageSize} country="in" category="general" />} />
           </Routes>
 
-        </Router>
+        </HashRouter>
 
       </div>
     )

@@ -1,6 +1,6 @@
 {
   "name": "news-app",
-  "homepage": "https://gauravssah.github.io/DemoNewsApp",
+  "homepage": "https://gauravssah.github.io/DemoNewsApp/#/<any-route-of-your-app>",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
