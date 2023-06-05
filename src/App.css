@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav.navbar {
+  background-color: orange !important;
+  position: sticky !important;
+  top: 0 !important;
+}
+
+.btn-primary {
+  background-color: orange !important;
+  color: black;
+  font-weight: bold !important;
+  border: 1px solid black;
+}
+
+.btn-primary:hover {
+  border: 1px solid black !important;
+}
