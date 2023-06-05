@@ -109,7 +109,7 @@ export class News extends Component {
 
                 <div className='row'>
 
-                    {!this.state.loading && this.state.articles.map((element) => {
+                    {!this.state.loading && this.state.articles?.map((element) => {
 
                         if (element.urlToImage == null) {
                             element.urlToImage = 'https://clicxy.com/wp-content/uploads/2016/04/dummy-post-horisontal.jpg'
